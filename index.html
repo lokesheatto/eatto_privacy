@@ -1,5 +1,107 @@
-Eatto – Food Delivery App
-Contact: email/phone
-About
-Privacy Policy
-Terms
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Eatto - Online Food Delivery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Eatto is an online food delivery platform connecting customers, restaurants, and delivery partners." />
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9fafb; color: #111827; }
+    header { background: #ef4444; color: white; padding: 16px 24px; }
+    header h1 { margin: 0; font-size: 24px; }
+    nav a { color: white; margin-right: 16px; text-decoration: none; font-size: 14px; }
+    .container { max-width: 960px; margin: 0 auto; padding: 24px 16px 40px; }
+    h2 { color: #b91c1c; margin-top: 32px; }
+    .card { background: white; border-radius: 8px; padding: 16px 20px; margin-top: 16px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+    ul { padding-left: 20px; }
+    footer { background: #111827; color: #d1d5db; padding: 16px; font-size: 14px; margin-top: 32px; }
+    footer a { color: #f97316; text-decoration: none; margin-right: 12px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Eatto – Online Food Delivery Platform</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#how-it-works">How it Works</a>
+    <a href="#partners">Restaurant & Delivery Partners</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="container">
+  <section id="about" class="card">
+    <h2>About Eatto</h2>
+    <p>
+      Eatto is a food delivery platform that connects customers with nearby restaurants
+      and independent delivery partners. Customers can browse menus, place orders, and
+      track deliveries in real time using our mobile app and web portal.
+    </p>
+    <p>
+      Our goal is to provide a simple, transparent way for restaurants to receive online
+      orders and for delivery partners to earn income on a flexible schedule.
+    </p>
+  </section>
+
+  <section id="how-it-works" class="card">
+    <h2>How Eatto Works</h2>
+    <ul>
+      <li><strong>Customers</strong> browse local restaurants, select items, and place orders through the Eatto app or website.</li>
+      <li><strong>Restaurants</strong> receive the order details on their Eatto Partner app / dashboard and prepare the food.</li>
+      <li><strong>Delivery partners</strong> use the Eatto Delivery app to accept orders, pick up from the restaurant, and deliver to the customer.</li>
+      <li>Payments are processed securely through integrated payment gateways. Restaurants and delivery partners receive payouts based on completed orders and agreed commission rates.</li>
+    </ul>
+  </section>
+
+  <section id="partners" class="card">
+    <h2>Restaurant & Delivery Partners</h2>
+    <h3>Restaurant Partners</h3>
+    <p>
+      Restaurants can sign up as Eatto partners to receive online orders without building their own
+      ordering system. We provide:
+    </p>
+    <ul>
+      <li>Partner onboarding and menu setup</li>
+      <li>Order management dashboard</li>
+      <li>Sales reports and payout summaries</li>
+    </ul>
+
+    <h3>Delivery Partners</h3>
+    <p>
+      Delivery partners (riders) work on a commission basis. Eatto provides:
+    </p>
+    <ul>
+      <li>Access to delivery requests in their area</li>
+      <li>Transparent earnings per delivery</li>
+      <li>Support for account and payment issues</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="card">
+    <h2>Contact & Business Details</h2>
+    <p><strong>Business Name:</strong> Eatto</p>
+    <p><strong>Website:</strong> https://<em>https://www.eatto.co.in</em></p>
+    <p><strong>Email:</strong> sathish.eatto@gmail.com</p>
+    <p><strong>Phone:</strong> +91 7904156728 </p>
+    <p><strong>Registered Address:</strong> Salem</p>
+    <p>
+      For partnership and support enquiries, please contact us by email or phone,
+      and our team will respond as soon as possible.
+    </p>
+  </section>
+</div>
+
+<footer>
+  <div class="container">
+    <span>© <span id="year"></span> Eatto. All rights reserved.</span><br />
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
